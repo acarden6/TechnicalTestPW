@@ -44,7 +44,7 @@
 
                     <div class="navbar-brand d-flex align-items-center">
                         <img src="{{ asset('/img/portfolio/admin.png') }}" />
-                        <p class="text-header">Administración</p><span class="badge badge-pill badge-danger">s2</span>
+                        <p class="text-header">Administración</p><span class="badge badge-pill badge-danger">2</span>
                     </div>
 
                     <div class="navbar-brand d-flex align-items-center">
