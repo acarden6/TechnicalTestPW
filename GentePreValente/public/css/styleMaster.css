@@ -22,28 +22,6 @@ body {
     margin-left: 5px;
 }
 
-
-/*
-.num {
-    margin-right: 5px;
-    margin-bottom: 15px;
-    height: 1.2rem;
-    right: 1.5rem;
-    width: 1.2rem;
-    text-align: center;
-    line-height: 1.1rem;
-    font-size: 1rem;
-    border-radius: 50%;
-    color: white;
-    font-weight: bold;
-    background-color: rgb(214, 46, 16);
-} */
-
-
-/* .notif {
-    color: red;
-} */
-
 .selectParent {
     width: 120px;
     overflow: hidden;
