@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+
 Route::get('/', 'HomeController@index')->name("home.index");
+Route::get('/approval', 'HomeController@show')->name("home.register");
+Route::get('approval/download/{file}' , 'HomeController@downloadFile')->name("file.download");
+
+

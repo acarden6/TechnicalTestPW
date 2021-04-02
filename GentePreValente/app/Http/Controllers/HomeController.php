@@ -2,9 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Home;
-use Illuminate\Http\Request;
-
 class HomeController extends Controller
 {
     /**
@@ -14,18 +11,19 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('layouts.master');
+        return view('home');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Home  $home
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Home $home)
+    public function show()
     {
-        //
+        return view('register');
+    }
+
+    public function downloadFile($filename)
+    {
+        $myFile = public_path("files/". $filename . ".pdf");
+
+        return response()->download($myFile);
     }
 
 }

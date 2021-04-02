@@ -1,8 +1,8 @@
-html, body {
+html,
+body {
     max-width: 100% !important;
     overflow-x: hidden !important;
 }
-
 
 .search-txt {
     border: 0;
@@ -17,11 +17,13 @@ html, body {
     right: 0;
 }
 
-.text-header{
+.text-header {
     margin-top: 15px;
     margin-left: 5px;
 }
 
+
+/*
 .num {
     margin-right: 5px;
     margin-bottom: 15px;
@@ -35,15 +37,19 @@ html, body {
     color: white;
     font-weight: bold;
     background-color: rgb(214, 46, 16);
-}
+} */
 
+
+/* .notif {
+    color: red;
+} */
 
 .selectParent {
     width: 120px;
     overflow: hidden;
-  }
+}
 
-  .selectParent select {
+.selectParent select {
     text-indent: 1px;
     text-overflow: '';
     width: 110px;
@@ -54,61 +60,8 @@ html, body {
     border: none;
     background: transparent url("/img/portfolio/dropdown.png") no-repeat 80px;
     background-color: #212529;
-  }
+}
 
-.fa{
+.fa {
     color: rgb(160, 160, 160);
 }
-
-
-.container {
-    margin-top: 50px;
-
-}
-
-.box {
-    margin-top: 30px;
-    padding-top: 30px;
-}
-
-.box img{
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    margin-left: -250px;
-    width: 90px !important;
-    height: 90px;
-    background-color: #2ab3fa;
-    padding: 1.5rem;
-    border-radius: 10%;
-    object-fit: contain
-}
-
-.card-img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-}
-
-.card {
-    margin-top: 30px;
-    padding-top: 30px;
-    border-radius: 10px;
-}
-
-.card-block {
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
-.card-footer {
-    font-size: small;
-}
-
-.footer-card-img {
-    width: 12px;
-    margin-left: 10px;
-    margin-right: 5px;
-}
-
-

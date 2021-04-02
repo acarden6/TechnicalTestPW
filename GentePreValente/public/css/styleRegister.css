@@ -1,0 +1,162 @@
+.navigation {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.breadcrumb {
+    display: contents;
+}
+
+.breadcrumb li {
+    font-size: 2.5vw;
+}
+
+.card {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.box {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    padding: 50px;
+    background-color: #f3f3f3;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+
+/* Style the label to display next to the inputs */
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+
+/* Style inputs, select elements and textareas */
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    resize: vertical;
+}
+
+
+/* Style the label to display next to the inputs */
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+
+/* Style the submit button */
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    float: right;
+}
+
+
+/* Style the container */
+
+.form-container {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.input-text {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+.col-md-6 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.label-text {
+    color: rgb(83, 83, 83);
+    margin: -10px;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    padding: 100px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+
+.modal-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-body {
+    margin-left: 50px;
+}
+
+.col-8 {
+    margin-top: 15px;
+}
+
+.col-4 {
+    position: relative;
+    right: 0px;
+    margin-top: -12px;
+}
+
+.files a img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.img-file {
+    width: 100%;
+    max-width: 25px;
+    height: auto;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .col-md-6,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    .buttons {
+        margin-top: auto;
+    }
+    .footer-container {
+        display: none;
+    }
+}

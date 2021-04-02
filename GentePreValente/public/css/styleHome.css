@@ -1,0 +1,64 @@
+.container {
+    margin-top: 50px;
+}
+
+.box {
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.box img {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    margin-left: -200px;
+    width: 90px !important;
+    height: 90px;
+    background-color: #2ab3fa;
+    padding: 1.5rem;
+    border-radius: 10%;
+    object-fit: contain
+}
+
+.card-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#card-1 {
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: xx-large;
+    margin-right: 70px;
+}
+
+.card-block {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    min-height: 150px;
+}
+
+.card-footer {
+    font-size: small;
+}
+
+.card-footer img {
+    width: 12px;
+}
+
+.card-footer p {
+    font-size: small;
+    margin-left: 20px;
+    margin-top: -17px;
+}
